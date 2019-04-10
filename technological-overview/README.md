@@ -11,12 +11,12 @@ Since the fact this is a serious propossal, here I'm going to list the assumptio
 3. How does this solve our actual problem, and how can we scale up the solution may be in the future? This is a crucial constraint in our workflow definition.
 4. **Bank of information available**, we need to consider in the selection of the technologies process, the availablity of information for ourselves in that case this is gonna be a source of knowledge and a very constructive way to keep ourselves update with the best practices of the solution.
 
-**Note important**: Obviously in a real context we need to encourage with several factors, like technical constraints, budget but we're not be talking about that over here, let's think about we are open to embrace new technologies despite of any kind of constraint related to thos topics.
+**Note important**: Obviously in a real context we need to encourage with several factors, like technical constraints, budget but we're not be talking about that over here, let's think about we are open to embrace new technologies despite of any kind of constraint related to those topics.
 
 ## So here's the deal:
 
 Here you can see a quick diagram of this:
-![alt text](/Users/robertotrujillo/Documents/Projects/continuous-integration/media-content/technological-overview-1.png "Technological O.")
+![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/technological-overview-1.png "Technological O.")
 
 ## Propossal:
 

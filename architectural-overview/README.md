@@ -11,7 +11,7 @@ In the next diagram we will try to show you what does it looks like a basic temp
 3. **Target infrastructure**: Usually here is gonna relly of infrastructure that provide us with a way to operate with our system,in such case it's very important to define how this is gonna be working and what are the minimum requirements to operate our software correctly.
 
 Here you can see a quick diagram of this:
-![alt text](/Users/robertotrujillo/Documents/Projects/continuous-integration/media-content/architectural-overview-1.png "Architectural O.")
+![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/architectural-overview-1.png "Architectural O.")
 
 
 
