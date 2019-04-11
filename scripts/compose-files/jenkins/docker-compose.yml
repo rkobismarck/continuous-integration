@@ -1,12 +1,13 @@
-version: '3.7'
+version: '3.3'
 services:
- jenkins_dev:
+ jenkins:
    image: 'jenkins/jenkins:lts'
    ports:
      - 8080:8080
    volumes:
-     - ci-jenkins-hpe:/var/jenkins
+     - ci_jenkins:/var/jenkins
    restart: always
+
 volumes:
- ci-jenkins-hpe:
-   external: true
+ ci_jenkins:
+ external: true
