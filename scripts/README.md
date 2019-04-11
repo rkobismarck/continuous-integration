@@ -14,8 +14,11 @@ The scripts contained in this respository and directory were designed to run in 
     #### Technical assumptions:
         1. We'll be using portainer to simplify our stack management of containers.
         2. We'll be using DockerCompose in order to simplify the configuration of the deployment.
-        3. We assume that you'll be using **Ubuntu Server 18.04 LTS (HVM)**, sorry about being repetitive but's very important in order to get this running in a simple way.
+        3. We assume that you'll be using Ubuntu Server 18.04 LTS (HVM), sorry about being repetitive but's very important in order to get this running in a simple way.
         4. We'll be using Docker volumes to persist the data, in such case that you need something different just go ahead and update the compose file, and obviously don't run the volumes-creation.sh
+    
+    ### Non technical but important:
+        1. Default user to connect to your new brand AWS Instance will be: ubuntu
 
 ### Let's get start with this.
 1. First of all you have two choices, [clone](https://github.com/rkobismarck/continuous-integration) this repository with the source code and avoid writting your own Dockerfile,DockerCompose and Scripts by having this approach you'll be focusing only on the related infrastructure setup involving Jenkins-Docker-AWS or just start from the begining creating your own repo and of course adding your desired source code, Dockerfiles and Compose files of your choice.
@@ -60,11 +63,13 @@ The scripts contained in this respository and directory were designed to run in 
     **Important** We assume that you've already opened the ports in your AWS-EC2 configuration, in case of not being able to see the instances trough your browser and after confirming with **docker ps** the fact they're running, you should take a look on the opening ports for your instance.(AWS Configuration). 
     
 ### Extra resources.
-
     
 [Jenkins Setup](https://github.com/rkobismarck/docker-jenkins-pipeline/blob/master/README.md)
 
 [AWS Inbound Traffic](https://kerneltalks.com/virtualization/how-to-open-port-on-aws-ec2-linux-server/)
+
+[AWS SSH Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+
 
 
 
