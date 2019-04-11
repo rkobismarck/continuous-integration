@@ -15,6 +15,3 @@ sudo su - ${USER}
 # Docker Compose.
 sudo apt install -y docker-compose
 
-# Chaining Docker Containers.
-sudo chmodx + run-containers.sh
-./run-containers.sh
