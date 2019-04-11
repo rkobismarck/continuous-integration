@@ -10,4 +10,4 @@ services:
 
 volumes:
  ci_jenkins:
- external: true
+  external: true
