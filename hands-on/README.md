@@ -1,6 +1,6 @@
 # Setting Environment.
 
-We need to setup our environment to accomplish with our pipeline to play with CI/CD topics. In that case here you'll find the elements needed to setup your own environment in format of scripts. 
+We need to setup our environment to accomplish with our pipeline and just after that play with CI/CD topics. In that case here you'll find the elements needed to setup your own environment in script format. 
 
 ### What will you need?
 1. GitHub account.
@@ -9,7 +9,7 @@ We need to setup our environment to accomplish with our pipeline to play with CI
 4. You need to create at your EC2 account in case of using this in the cloud, a free tier eligible in our case for test purposes and select **Ubuntu Server 18.04 LTS (HVM)** in our case will be helpful.
 
 ### Assumptions.
-The scripts contained in this respository and directory were designed to run in a **Linux Ubuntu Server 18.04 LTS (HVM)**, so in that case we consider that you'll be using something like this one; in such case that you may need to run this setup script in another platform may be you need to run all of them in a version for the **SO** that you need in specific. For our case, we're gonna be operating with the **Ubuntu Server 18.04 LTS (HVM)**, because is one of the lightweight availables in AWS EC2.
+The scripts contained in this respository and directory were designed to run in a **Linux Ubuntu Server 18.04 LTS (HVM)**, so in that case we consider that you'll be using something like this; in such case that you may need to run this setup script in another platform may be you need to run all of them in a version for the **SO** that you need in specific. For our case, we're gonna be operating with the **Ubuntu Server 18.04 LTS (HVM)**, because it is one of the lightest availables in AWS EC2.
     
     #### Technical assumptions:
         1. We'll be using portainer to simplify our stack management of containers.
@@ -24,7 +24,7 @@ The scripts contained in this respository and directory were designed to run in 
 1. First of all you have two choices, [clone](https://github.com/rkobismarck/continuous-integration) this repository with the source code and avoid writting your own Dockerfile,DockerCompose and Scripts by having this approach you'll be focusing only on the related infrastructure setup involving Jenkins-Docker-AWS or just start from the begining creating your own repo and of course adding your desired source code, Dockerfiles and Compose files of your choice.
 2. You always can create a fork from this respository, so take that in consideration and feel free to play with it.
 3. Connect to your EC2 instance, via ssh and perform the GitClone from the repo.
-4. Go to the directory **scripts**
+4. Go to the directory **hands-on**
 5. We're gonna install Docker and Docker-Compose in the first instance so in that case you need to perform the next:
 
     * Change permsions for the sh files, all of them need permision of execution in your UNIX.
