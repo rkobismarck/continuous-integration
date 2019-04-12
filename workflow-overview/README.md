@@ -16,7 +16,7 @@ All of them will be working together and in a synchronized mood, and that will l
 
 I'm a strong believer of **"A picture is worth a thousand words"** and as a consequence of that, we'll open up the discussion with an image:
 
-![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/worflow-overview-1.png "Workflow O.")
+![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/workflow-overview-1.png "Workflow O.")
 
 Let's go deeper on this:
 
@@ -24,7 +24,7 @@ Let's go deeper on this:
 
 We're gonna look for a conservative branching strategy,we can have in a normal Sprint more than one feature branches opened at a certain moment, and based on the fact that the branches are really easy to create, merge o delete we'll trust on them. We can have may be one feature that should be delivered just before another one, so in that case may one of them reachs production in a earlier stage and based on that fact and the continuos integration pipeline that we've setted up we must have present that at least every feature branch should be translated in a user story, and because of that it should be so atomic that the deployment could be done with no affecting the entire solution. In that case we can think in something like this:
 
-![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/worflow-overview-2.png "Branching O.")
+![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/workflow-overview-2.png "Branching O.")
 
 [+Info Branching](https://danielkummer.github.io/git-flow-cheatsheet)
 
@@ -58,7 +58,7 @@ Obviously we'll go for Linux, due to one single reason: we need to be working in
 Justification:
 We need a Linux server in order to run in a very nice mode and obviously tons of advantages versus another system, and for this specific case AWSEC2 will provide us with many of them for free. We can save up resources versus the implementation with VM or even native instances, and in our case along with some kind of suppor from Kubernetes we'll be willing to have a high availabily plattform ready to start with.But in this case, we're gonna start in a very simple manner, docker, compose and may be running as stacks in swarm mode.
 
-![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/worflow-overview-3.png "Containers O.")
+![alt text](https://github.com/rkobismarck/continuous-integration/blob/master/media-content/workflow-overview-3.png "Containers O.")
 
 
 [+Info Containers](https://www.oreilly.com/library/view/using-docker/9781491915752/ch01.html)
